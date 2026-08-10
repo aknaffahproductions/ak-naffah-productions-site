@@ -1,4 +1,4 @@
-# AK Naffah Productions Website
+# Aletheian Pictures Website
 
 A responsive static website built with plain HTML, CSS and JavaScript.
 
