@@ -76,7 +76,6 @@ button, input, select, textarea { font: inherit; }
 }
 
 .hero {
-  min-height: calc(100vh - 78px);
   display: grid;
   align-items: end;
   position: relative;
