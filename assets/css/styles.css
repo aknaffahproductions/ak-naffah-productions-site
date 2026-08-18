@@ -377,6 +377,13 @@ button, input, select, textarea { font: inherit; }
 }
 .project-hero-inner { padding: 120px 0 70px; position: relative; z-index: 2; }
 .project-title { font-size: clamp(4rem, 9vw, 9rem); max-width: 1100px; }
+.project-cert {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
 .project-logline {
   margin: 30px 0 0;
   max-width: 820px;
