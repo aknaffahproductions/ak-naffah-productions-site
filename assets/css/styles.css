@@ -395,6 +395,7 @@ button, input, select, textarea { font: inherit; }
   grid-template-columns: .75fr 1.25fr;
   gap: 80px;
 }
+.project-poster { width: 100%; height: auto; display: block; margin-bottom: 30px; }
 .fact-list { border-top: 1px solid var(--line); }
 .fact {
   display: grid;
@@ -421,6 +422,15 @@ button, input, select, textarea { font: inherit; }
     url("../images/al-naffah.jpg") center/cover no-repeat,
     linear-gradient(135deg, #301012, #111);
   border: 1px solid var(--line);
+}
+.portrait-placeholder.placeholder-plain {
+  background: linear-gradient(135deg, #301012, #111);
+}
+.portrait-placeholder.portrait-michael {
+  background:
+    linear-gradient(180deg, transparent, rgba(0,0,0,.75)),
+    url("../images/michael-rushworth.jpg") center/cover no-repeat,
+    linear-gradient(135deg, #301012, #111);
 }
 .large-copy {
   font-family: var(--serif);
