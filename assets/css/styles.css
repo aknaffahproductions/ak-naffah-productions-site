@@ -449,6 +449,12 @@ button, input, select, textarea { font: inherit; }
     url("../images/michael-rushworth.jpg") center/cover no-repeat,
     linear-gradient(135deg, #301012, #111);
 }
+.portrait-placeholder.portrait-alain {
+  background:
+    linear-gradient(180deg, transparent, rgba(0,0,0,.75)),
+    url("../images/alain-checri.jpg") center/cover no-repeat,
+    linear-gradient(135deg, #301012, #111);
+}
 .large-copy {
   font-family: var(--serif);
   font-size: clamp(2rem, 4vw, 4.3rem);
