@@ -455,6 +455,14 @@ button, input, select, textarea { font: inherit; }
     url("../images/alain-checri.jpg") center/cover no-repeat,
     linear-gradient(135deg, #301012, #111);
 }
+@media (min-width: 901px), (max-width: 600px) {
+  .portrait-placeholder.portrait-alain {
+    background:
+      linear-gradient(180deg, transparent 55%, #111 85%),
+      url("../images/alain-checri.jpg") center top/max(100%, 527px) auto no-repeat,
+      #111;
+  }
+}
 .large-copy {
   font-family: var(--serif);
   font-size: clamp(2rem, 4vw, 4.3rem);
